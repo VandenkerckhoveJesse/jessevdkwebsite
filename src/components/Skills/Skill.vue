@@ -26,7 +26,6 @@ export default {
   mounted() {
 
       let div = document.querySelector('#'+this.name);
-      console.log(div);
       for(let i=1;5 >= i; i++) {
           if(i <= this.skill.level){
               div.innerHTML += "<svg class='green'></svg>"
@@ -44,6 +43,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
     .skill svg{
+
         background-color: #b0b0b0;
         border-radius: 100%;
         height: 20px;

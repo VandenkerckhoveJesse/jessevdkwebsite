@@ -43,9 +43,6 @@ export default {
 </script>
 
 <style scoped>
-
-
-
   #profilepic{
     height: 200px;
     width: 200px;

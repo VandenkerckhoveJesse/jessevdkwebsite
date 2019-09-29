@@ -26,6 +26,7 @@ export default {
             margin-left: 0!important;
             margin-right: 0!important;
         }
+
         article{
             flex-direction: column;
             justify-content: space-between;
